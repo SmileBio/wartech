@@ -1,6 +1,4 @@
-/**
- * Created by smile on 27.02.17.
- */
+'use strict'
 const express = require('express'),
     router = express.Router(),
     db = require('../models'),

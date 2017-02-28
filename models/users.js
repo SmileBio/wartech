@@ -1,7 +1,4 @@
-/**
- * Created by smile on 27.02.17.
- */
-
+'use strict'
 const bcrypt = require('bcrypt'),
     salt = bcrypt.genSaltSync(10);
 module.exports =  (sequelize, DataTypes)=> {

@@ -1,6 +1,3 @@
-/**
- * Created by smile on 27.02.17.
- */
 'use strict'
 const passport = require('passport'),
  strategy = require('passport-http-bearer').Strategy,
